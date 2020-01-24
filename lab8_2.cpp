@@ -4,12 +4,11 @@ using namespace std;
 //Write the function printO() here
 printO(int N,int M){
 	if(N > 0 and M > 0){
-		while(N > 0){
+		for(int y=N ;y > 0 ; y--){
 			for(int i=M ;i > 0 ; i--){
 				cout << "O";
 			}
 			cout << "\n";
-			N--;
 		}	
 	}else{
 		cout << "Invalid input";
